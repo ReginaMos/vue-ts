@@ -8,7 +8,7 @@
                     </div>
                 </router-link>
                 <router-link to="/table" class="no-line">
-                    <div :class="['menu-elem', {'active' : $route.path === '/tables'}]">
+                    <div :class="['menu-elem', {'active' : $route.path === '/table'}]">
                         <li>Tables</li>
                     </div>
                 </router-link>
