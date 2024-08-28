@@ -3,7 +3,7 @@
         <div class="aside-content pt-4">
             <ul>
                 <router-link to="/" class="no-line">
-                    <div :class="['menu-elem', {'active' : $route.path === '/bills'}]">
+                    <div :class="['menu-elem', {'active' : $route.path === '/'}]">
                         <li>Main</li>
                     </div>
                 </router-link>
