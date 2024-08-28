@@ -6,7 +6,7 @@
                     <router-link to="/"><img src="@/assets/free-icon-money-2695217.png" alt="logo" class="img-header"></router-link>
                     <nav>
                         <ul class="nav">
-                            <router-link to="/login" class="no-line"><li>Sign In</li></router-link>
+                            <router-link to="/login" class="no-line"><li><i class="fa-solid fa-right-to-bracket mr-2"></i>Sign In</li></router-link>
                             <li><i class="fa-solid fa-bell"></i></li>
                         </ul>
                     </nav>
@@ -17,7 +17,7 @@
 </template>
 
 <script lang="ts">
-import { Vue, Component, Mixins, Prop, Watch } from 'vue-property-decorator'
+import { Vue, Component } from 'vue-property-decorator'
 
 @Component
 export default class YourClass extends Vue {}

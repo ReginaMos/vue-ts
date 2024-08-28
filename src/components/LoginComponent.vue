@@ -5,11 +5,14 @@
             <div class="login-content">
                 <div class="login-part">
                     <h1>Login</h1>
-                    <span>Username</span>
-                    <input type="text" class="form-control mb-4" v-model="userName">
+                    <span class="text-left">Username</span>
+                    <input type="text" class="form-control" v-model="userName">
                     <span>Password</span>
-                    <input type="text" class="form-control mb-3" v-model="password">
-                    <button class="btn btn-primary" :disabled="!(userName && password)" @click="clickBtn">Login</button>
+                    <div class="password-part">
+                        <input :type="inputType" class="form-control" v-model="password">
+                        <i :class="['fa-regular', {'fa-eye-slash' : isClosed}, {'fa-eye': !isClosed}]" @click="changeIcon"></i>
+                    </div>
+                    <button class="btn btn-primary mb-2" :disabled="!(userName && password)" @click="clickBtn">Login</button>
                     <p>You don't have account? <router-link to="/register">Sign Up</router-link></p>
                 </div>
             </div>
@@ -29,9 +32,18 @@ import HeaderComponent from '@/components/HeaderComponent.vue'
 export default class YourClass extends Vue {
     userName = ''
     password = ''
+    inputType = 'password'
+    isClosed = true
 
     clickBtn (): void {
+      sessionStorage.setItem('user', JSON.stringify(this.userName))
       this.$router.push('/')
+    }
+
+    changeIcon (): void {
+      this.isClosed = !this.isClosed
+      if (this.inputType === 'password') this.inputType = 'text'
+      else this.inputType = 'password'
     }
 }
 
@@ -39,11 +51,6 @@ export default class YourClass extends Vue {
 
 <style scoped lang="sass">
 
-    .login-content
-        display: flex
-        justify-content: center
-
-    .login-part
-        max-width: 400px
+@import ../styles/login
 
 </style>
