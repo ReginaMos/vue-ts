@@ -1,16 +1,16 @@
 <template>
   <div>
-    <HomePage/>
+    <MainComponent/>
   </div>
 </template>
 
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator'
-import HomePage from '@/components/HomePage.vue'
+import MainComponent from '@/components/MainComponent.vue'
 
 @Component({
   components: {
-    HomePage
+    MainComponent
   }
 })
 export default class HomeView extends Vue {
