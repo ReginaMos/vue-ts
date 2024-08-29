@@ -1,17 +1,51 @@
 <template>
     <div>
-        <h1>Main Content</h1>
+      <div class="content mt-4">
+        <div class="info-part">
+            <MainInfoPart v-for="item in data"
+            :key="item.title"
+            :elem="item"
+            />
+        </div>
+        <MainGraphicPart />
+        <MainTablePart />
+      </div>
     </div>
 </template>
 
 <script lang="ts">
-import { Vue, Component } from 'vue-property-decorator'
+import { Vue, Component, Mixins } from 'vue-property-decorator'
 
-@Component
-export default class YourClass extends Vue {}
+import MainTablePart from '@/components/MainTablePart.vue'
+import MainInfoPart from '@/components/MainInfoPart.vue'
+import MainGraphicPart from '@/components/MainGraphicPart.vue'
+
+import Data from '@/mixins/today'
+
+@Component({
+  components: {
+    MainTablePart,
+    MainInfoPart,
+    MainGraphicPart
+  }
+})
+export default class YourClass extends Mixins(Data) {
+  mixins: [Data]
+}
 
 </script>
 
 <style scoped lang="sass">
+
+  .info-part
+    display: flex
+    gap: 30px
+    flex-wrap: wrap
+    justify-content: center
+
+  .content
+    display: flex
+    flex-direction: column
+    gap: 30px
 
 </style>
