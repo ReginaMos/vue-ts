@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="aside-content pt-4">
-            <ul>
+            <ul class="p-0">
                 <router-link to="/" class="no-line">
                     <div :class="['menu-elem', {'active' : $route.path === '/'}]">
                         <li><i class="fa-solid fa-house mr-3"></i>Main</li>
@@ -25,7 +25,7 @@
 
             </ul>
 
-            <ul>
+            <ul class="p-0">
                 <li><i class="fa-solid fa-user mr-3"></i>{{ userInfo }}</li>
                 <router-link to="/login" class="no-line">
                     <div class="menu-elem">

@@ -18,3 +18,18 @@ export interface TablePoint {
     x: number,
     y: number
 }
+
+export interface Author {
+    name: string,
+    email: string,
+    function: 'Manager' | 'Programmer' | 'Executive',
+    status: 'online' | 'offline',
+    employed: string
+}
+
+export interface Product {
+    name: string,
+    img: string,
+    status: 'working' | 'done' | 'canceled',
+    completion: number
+}
