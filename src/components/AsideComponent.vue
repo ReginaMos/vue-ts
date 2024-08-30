@@ -26,7 +26,9 @@
             </ul>
 
             <ul class="p-0">
-                <li><i class="fa-solid fa-user mr-3"></i>{{ userInfo }}</li>
+                <div class="menu-elem">
+                    <li><i class="fa-solid fa-user mr-3"></i>{{ userInfo }}</li>
+                </div>
                 <router-link to="/login" class="no-line">
                     <div class="menu-elem">
                         <li><i class="fa-solid fa-right-to-bracket mr-3"></i>Sign In</li>

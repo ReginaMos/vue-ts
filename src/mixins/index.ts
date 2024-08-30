@@ -24,12 +24,14 @@ export interface Author {
     email: string,
     function: 'Manager' | 'Programmer' | 'Executive',
     status: 'online' | 'offline',
-    employed: string
+    employed: string,
+    img: string
 }
 
 export interface Product {
     name: string,
     img: string,
-    status: 'working' | 'done' | 'canceled',
-    completion: number
+    status: 'working' | 'done' | 'cancelled',
+    completion: number,
+    budget: number
 }

@@ -1,6 +1,6 @@
 <template>
     <div>
-      <div class="content mt-4">
+      <div class="content">
         <div class="info-part">
             <MainInfoPart v-for="item in data"
             :key="item.title"
@@ -14,13 +14,13 @@
 </template>
 
 <script lang="ts">
-import { Vue, Component, Mixins } from 'vue-property-decorator'
+import { Component, Mixins } from 'vue-property-decorator'
 
 import MainTablePart from '@/components/MainTablePart.vue'
 import MainInfoPart from '@/components/MainInfoPart.vue'
 import MainGraphicPart from '@/components/MainGraphicPart.vue'
 
-import Data from '@/mixins/today'
+import Data from '@/mixins/main'
 
 @Component({
   components: {
@@ -39,9 +39,11 @@ export default class YourClass extends Mixins(Data) {
 
   .info-part
     display: flex
-    gap: 30px
+    gap: 50px
     flex-wrap: wrap
     justify-content: center
+    padding: 40px
+    background-color: #def6f9
 
   .content
     display: flex

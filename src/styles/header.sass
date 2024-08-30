@@ -1,6 +1,9 @@
 .header
-        box-shadow: 4px 5px 8px 4px rgba(34, 60, 80, 0.22)
-        padding: 25px
+    box-shadow: 4px 5px 8px 4px rgba(34, 60, 80, 0.22)
+    padding: 25px 60px 25px 60px
+    position: fixed
+    width: 100%
+    background-color: #fff
 
 .header-content
     display: flex
@@ -29,3 +32,10 @@
     gap: 40px
     align-items: center
     cursor: pointer
+
+.left-menu-part i
+    display: none
+
+@media(max-width: 1000px)
+    .left-menu-part i
+        display: block

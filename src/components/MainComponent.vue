@@ -1,14 +1,18 @@
 <template>
     <div>
+      <!-- <div class="header"> -->
         <HeaderComponent
           @changeOpen="changeOpen"
         />
-        <div class="main-content">
+      <!-- </div> -->
+      <div class="main-content">
+          <div class="aside-part">
             <AsideComponent :class="{'hidden': !hidden}"/>
-            <div class="router ml-4">
-              <router-view/>
-            </div>
-        </div>
+          </div>
+          <div class="router">
+            <router-view/>
+          </div>
+      </div>
     </div>
 </template>
 
@@ -26,7 +30,7 @@ import AsideComponent from '@/components/AsideComponent.vue'
 export default class YourClass extends Vue {
   hidden = true
 
-  changeOpen (data: boolean): void {
+  changeOpen (): void {
     this.hidden = !this.hidden
   }
 }
@@ -34,12 +38,16 @@ export default class YourClass extends Vue {
 </script>
 
 <style scoped lang="sass">
-
   .main-content
-    display: flex
-    gap: 30px
-    width: 100%
+      padding-top: 100px
 
   .hidden
     display: none
+
+  .aside-part
+    position: fixed
+    //z-index: 1000
+
+  .router
+    margin-left: 252px
 </style>
