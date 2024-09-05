@@ -8,7 +8,7 @@
                 </div>
                 <img :src="elem.img" alt="icon-obj" :style="{ backgroundColor: elem.color }">
             </div>
-            <p><span>{{ elem.percent }}%</span> since yesterday</p>
+            <p><span>+{{ elem.percent }}%</span> since yesterday</p>
         </div>
     </div>
 </template>

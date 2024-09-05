@@ -28,7 +28,7 @@
                             </td>
                             <td>
                                 <div class="status">
-                                    <span>{{ item.status.toUpperCase() }}</span>
+                                    <span :class="item.status === 'online' ? 'on' : 'off'">{{ item.status.toUpperCase() }}</span>
                                 </div>
                             </td>
                             <td>
@@ -61,7 +61,7 @@
                             </td>
                             <td>
                                 <div class="budget">
-                                    <span>{{ item.budget }}</span>
+                                    <span>$ {{ item.budget }}</span>
                                 </div>
                             </td>
                             <td>
@@ -73,6 +73,9 @@
                                 <div class="completion">
                                     <span>{{ item.completion }}</span>
                                 </div>
+                            </td>
+                            <td class="points" @click="openPoints">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
                             </td>
                         </tr>
                     </tbody>
@@ -89,6 +92,10 @@ import TableData from '@/mixins/table'
 @Component
 export default class MainTablePart extends Mixins(TableData) {
   mixins: [TableData]
+
+  openPoints (): void {
+    console.log('hehe')
+  }
 }
 
 </script>
@@ -131,9 +138,17 @@ export default class MainTablePart extends Mixins(TableData) {
     //     margin-left: 100px
 
     .status span
-        color: #fff
-        background-color: green
         border-radius: 15px
-        padding: 10px
+        padding: 7px 10px
+        color: #fff
+
+    .on
+        background-color: green
+
+    .off
+        background-color: grey
+
+    .points
+        cursor: pointer
 
 </style>

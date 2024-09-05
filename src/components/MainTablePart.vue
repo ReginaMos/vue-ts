@@ -2,7 +2,38 @@
     <div>
       <div class="content pl-4">
         <div class="table-title">Sales by Country</div>
-          <div class="country-part" v-for="item, ind in countries" :key="ind">
+        <table>
+            <tbody>
+              <tr class="country-part" v-for="item, ind in countries" :key="ind">
+                <td class="name">
+                  <img :src="item.flag" alt="">
+                  <div class="name-text">
+                    <p class="mb-0">Country:</p>
+                    <span>{{ item.name }}</span>
+                  </div>
+                </td>
+                <td>
+                  <div class="sales">
+                    <p class="mb-0">Sales:</p>
+                    <span>{{ item.sales }}</span>
+                  </div>
+                </td>
+                <td>
+                  <div class="value">
+                    <p class="mb-0">Value:</p>
+                    <span>{{ item.value }}</span>
+                  </div>
+                </td>
+                <td>
+                  <div class="bounce">
+                    <p class="mb-0">Bounce:</p>
+                    <span>{{ item.baunce }}</span>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+        </table>
+          <!-- <div class="country-part" v-for="item, ind in countries" :key="ind">
             <img :src="item.flag" alt="">
             <div class="name">
               <p class="mb-0">Country:</p>
@@ -20,7 +51,7 @@
               <p class="mb-0">Bounce:</p>
               <span>{{ item.baunce }}</span>
             </div>
-          </div>
+          </div> -->
       </div>
     </div>
 </template>
