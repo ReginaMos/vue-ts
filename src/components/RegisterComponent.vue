@@ -95,6 +95,7 @@ export default class YourClass extends Vue {
       flex-direction: column
       gap: 15px
       text-align: center
+      padding-top: 150px
 
     .register-part span
       text-align: left

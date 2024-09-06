@@ -8,7 +8,7 @@
                 </div>
                 <nav>
                     <ul class="nav">
-                        <router-link to="/login" class="no-line"><li><i class="fa-solid fa-right-to-bracket mr-2"></i>Sign In</li></router-link>
+                        <router-link to="/login" class="no-line"><li @click="changeSign"><i class="fa-solid fa-right-to-bracket mr-2"></i>{{ info !== null ? 'Sign Out' : 'Sign In'}}</li></router-link>
                         <li><i class="fa-solid fa-bell"></i></li>
                     </ul>
                 </nav>
@@ -30,6 +30,11 @@ export default class YourClass extends Vue {
 
     clickMenu (): void {
       this.$emit('changeOpen')
+    }
+
+    changeSign (): void {
+      console.log('hehe')
+      sessionStorage.clear()
     }
 }
 

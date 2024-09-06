@@ -31,7 +31,7 @@
                 </div>
                 <router-link to="/login" class="no-line">
                     <div class="menu-elem">
-                        <li><i class="fa-solid fa-right-to-bracket mr-3"></i>Sign In</li>
+                        <li><i class="fa-solid fa-right-to-bracket mr-3"></i>{{ userInfo !== null ? 'Sign Out' : 'Sign In'}}</li>
                     </div>
                 </router-link>
                 <router-link to="/register" class="no-line">

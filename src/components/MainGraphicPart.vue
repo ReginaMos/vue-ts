@@ -7,16 +7,26 @@
             </div>
             <div class="slider">
                 <h2>Slider</h2>
+                <div class="slider-content">
+                  <img :src="images[sliderIndex]">
+                  <div class="arrow-parts">
+                    <i class="fa-solid fa-chevron-left arrow" @click="leftSlider"></i>
+                    <i class="fa-solid fa-chevron-right arrow" @click="rightSlider"></i>
+                  </div>
+                </div>
             </div>
         </div>
     </div>
 </template>
 
 <script lang="ts">
-import { Vue, Component } from 'vue-property-decorator'
+import { Mixins, Component } from 'vue-property-decorator'
+import tablePoints from '@/mixins/tabledata'
 
 @Component
-export default class YourClass extends Vue {
+export default class YourClass extends Mixins(tablePoints) {
+  mixins: [tablePoints]
+
   mounted () {
     const canvas = this.$refs.canvas as HTMLCanvasElement
     const ctx = canvas.getContext('2d')
@@ -24,6 +34,14 @@ export default class YourClass extends Vue {
       this.drawPiecewiseLinearGraph(ctx)
     }
   }
+
+  sliderIndex = 0
+
+  images = [
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0j9BRl8uRQJIS5sGgpassT-Zesu2iAfls8w&s',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX2szJOtzkkG6aqNhxUux9PEusfLCTuXzVOw&s',
+    'https://images.squarespace-cdn.com/content/v1/63744df06d8633737c23eb62/1668760207424-U0911K35L3PV60K11T9A/overview-philippine-banking.jpg'
+  ]
 
   drawPiecewiseLinearGraph (ctx: CanvasRenderingContext2D) {
     const canvas = this.$refs.canvas as HTMLCanvasElement
@@ -57,6 +75,16 @@ export default class YourClass extends Vue {
     }
     ctx.stroke()
   }
+
+  leftSlider (): void {
+    if (this.sliderIndex !== 0) this.sliderIndex -= 1
+    else this.sliderIndex = this.images.length - 1
+  }
+
+  rightSlider (): void {
+    if (this.sliderIndex !== this.images.length - 1) this.sliderIndex += 1
+    else this.sliderIndex = 0
+  }
 }
 
 </script>
@@ -65,5 +93,25 @@ export default class YourClass extends Vue {
 
     .graphic-content
         display: flex
+        align-items: center
+        justify-content: space-between
+        margin-right: 50px
 
+    .arrow
+      padding: 15px
+      border-radius: 50%
+      border: 2px solid #000
+      cursor: pointer
+
+    .arrow:hover
+      background-color: #c9c1c1
+
+    .slider-content img
+      width: 500px
+      height: 400px
+      margin-bottom: 10px
+
+    .arrow-parts
+      display: flex
+      gap: 20px
 </style>
