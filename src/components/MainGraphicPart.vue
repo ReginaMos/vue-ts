@@ -94,8 +94,9 @@ export default class YourClass extends Mixins(tablePoints) {
     .graphic-content
         display: flex
         align-items: center
-        justify-content: space-between
+        gap: 50px
         margin-right: 50px
+        width: 100%
 
     .arrow
       padding: 15px

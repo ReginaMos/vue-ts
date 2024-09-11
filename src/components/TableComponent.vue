@@ -2,8 +2,11 @@
     <div>
         <div class="table-content">
             <div class="table-part">
-                <h3 class="authors-title">Authors</h3>
-                <table>
+                <div class="title-part">
+                    <h3 class="authors-title">Authors</h3>
+                    <router-link to='/users'><button class="btn">Подробнее</button></router-link>
+                </div>
+                <table class="table table-striped">
                     <thead>
                         <th>Author</th>
                         <th>Function</th>
@@ -41,8 +44,11 @@
                 </table>
             </div>
             <div class="table-part">
-                <h3 class="authors-title">Products</h3>
-                <table>
+                <div class="title-part">
+                    <h3 class="authors-title">Products</h3>
+                    <router-link to='/bills'><button class="btn">Подробнее</button></router-link>
+                </div>
+                <table class="table table-striped">
                     <thead>
                         <th>Project</th>
                         <th>Budget</th>
@@ -88,6 +94,7 @@
 <script lang="ts">
 import { Component, Mixins } from 'vue-property-decorator'
 import TableData from '@/mixins/table'
+import router from '@/router'
 
 @Component
 export default class MainTablePart extends Mixins(TableData) {
@@ -114,6 +121,18 @@ export default class MainTablePart extends Mixins(TableData) {
         border-radius: 10px
         padding: 30px
 
+    .title-part
+        display: flex
+        justify-content: space-between
+        margin-bottom: 10px
+
+    .btn
+        background-color: #9cbef7
+        color: #fff
+
+    .btn:hover
+        background-color: #576db7
+
     .name
         display: flex
         align-items: center
@@ -126,16 +145,14 @@ export default class MainTablePart extends Mixins(TableData) {
         font-size: 17px
 
     table
-        width: 75%
-        // border-collapse: separate
         border-spacing: 75px 15px
 
     tr
         border-top: 2px solid #e3e0e0
         padding: 10px
 
-    // .authors-title
-    //     margin-left: 100px
+    td
+        vertical-align: middle
 
     .status span
         border-radius: 15px

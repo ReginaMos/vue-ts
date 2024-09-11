@@ -2,7 +2,7 @@
     <div>
       <div class="content pl-4">
         <div class="table-title">Sales by Country</div>
-        <table>
+        <table class="table">
             <tbody>
               <tr class="country-part" v-for="item, ind in countries" :key="ind">
                 <td class="name">
