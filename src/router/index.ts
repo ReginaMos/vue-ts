@@ -1,12 +1,12 @@
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import MainContent from '../components/MainContent.vue'
-import TableComponent from '../components/TableComponent.vue'
-import BillsComponent from '../components/BillsComponent.vue'
-import LoginComponent from '../components/LoginComponent.vue'
-import RegisterComponent from '../components/RegisterComponent.vue'
-import UsersComponent from '../components/UsersComponent.vue'
+import HomeView from '@/views/HomeView.vue'
+import MainContent from '@/components/MainContent.vue'
+import TableComponent from '@/components/TableComponent.vue'
+import BillsComponent from '@/components/BillsComponent.vue'
+import LoginComponent from '@/components/LoginComponent.vue'
+import RegisterComponent from '@/components/RegisterComponent.vue'
+import UsersComponent from '@/components/UsersComponent.vue'
 
 Vue.use(VueRouter)
 
