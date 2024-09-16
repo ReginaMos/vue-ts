@@ -33,25 +33,6 @@
               </tr>
             </tbody>
         </table>
-          <!-- <div class="country-part" v-for="item, ind in countries" :key="ind">
-            <img :src="item.flag" alt="">
-            <div class="name">
-              <p class="mb-0">Country:</p>
-              <span>{{ item.name }}</span>
-            </div>
-            <div class="sales">
-              <p class="mb-0">Sales:</p>
-              <span>{{ item.sales }}</span>
-            </div>
-            <div class="value">
-              <p class="mb-0">Value:</p>
-              <span>{{ item.value }}</span>
-            </div>
-            <div class="bounce">
-              <p class="mb-0">Bounce:</p>
-              <span>{{ item.baunce }}</span>
-            </div>
-          </div> -->
       </div>
     </div>
 </template>

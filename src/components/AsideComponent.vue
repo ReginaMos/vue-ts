@@ -14,7 +14,7 @@
                 </router-link>
                 <router-link to="/bills" class="no-line">
                     <div :class="['menu-elem', {'active' : $route.path === '/bills'}]">
-                        <li><i class="fa-solid fa-money-bills mr-3"></i>Bills</li>
+                        <li><i class="fa-solid fa-money-bills mr-3"></i>Projects</li>
                     </div>
                 </router-link>
                 <router-link to="/users" class="no-line">

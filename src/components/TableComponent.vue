@@ -108,64 +108,7 @@ export default class MainTablePart extends Mixins(TableData) {
 </script>
 
 <style scoped lang="sass">
-    .table-content
-        padding-top: 20px
-        padding-left: 30px
-        display: flex
-        flex-direction: column
-        gap: 30px
-        background-color: #c5def380
 
-    .table-part
-        background-color: #fff
-        border-radius: 10px
-        padding: 30px
-
-    .title-part
-        display: flex
-        justify-content: space-between
-        margin-bottom: 10px
-
-    .btn
-        background-color: #9cbef7
-        color: #fff
-
-    .btn:hover
-        background-color: #576db7
-
-    .name
-        display: flex
-        align-items: center
-
-    .name-text
-        margin-left: 50px
-
-    .name-text span
-        font-weight: 700
-        font-size: 17px
-
-    table
-        border-spacing: 75px 15px
-
-    tr
-        border-top: 2px solid #e3e0e0
-        padding: 10px
-
-    td
-        vertical-align: middle
-
-    .status span
-        border-radius: 15px
-        padding: 7px 10px
-        color: #fff
-
-    .on
-        background-color: green
-
-    .off
-        background-color: grey
-
-    .points
-        cursor: pointer
+@import ../styles/table
 
 </style>
