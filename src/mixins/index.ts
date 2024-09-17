@@ -35,3 +35,9 @@ export interface Product {
     completion: number,
     budget: number
 }
+
+export interface User extends Author {
+    phone: string,
+    about: string,
+    project: string[]
+}

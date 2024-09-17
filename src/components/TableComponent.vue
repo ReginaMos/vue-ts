@@ -4,7 +4,7 @@
             <div class="table-part">
                 <div class="title-part">
                     <h3 class="authors-title">Authors</h3>
-                    <router-link to='/users'><button class="btn">Подробнее</button></router-link>
+                    <router-link to='/users'><button class="btn">More info</button></router-link>
                 </div>
                 <table class="table table-striped">
                     <thead>
@@ -46,7 +46,7 @@
             <div class="table-part">
                 <div class="title-part">
                     <h3 class="authors-title">Products</h3>
-                    <router-link to='/bills'><button class="btn">Подробнее</button></router-link>
+                    <router-link to='/projects'><button class="btn">More info</button></router-link>
                 </div>
                 <table class="table table-striped">
                     <thead>
@@ -80,9 +80,6 @@
                                     <span>{{ item.completion }}</span>
                                 </div>
                             </td>
-                            <td class="points" @click="openPoints">
-                                <i class="fa-solid fa-ellipsis-vertical"></i>
-                            </td>
                         </tr>
                     </tbody>
                 </table>
@@ -94,15 +91,10 @@
 <script lang="ts">
 import { Component, Mixins } from 'vue-property-decorator'
 import TableData from '@/mixins/table'
-import router from '@/router'
 
 @Component
 export default class MainTablePart extends Mixins(TableData) {
   mixins: [TableData]
-
-  openPoints (): void {
-    console.log('hehe')
-  }
 }
 
 </script>

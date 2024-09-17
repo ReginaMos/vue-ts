@@ -12,8 +12,8 @@
                         <li><i class="fa-solid fa-diagram-project mr-3"></i>Tables</li>
                     </div>
                 </router-link>
-                <router-link to="/bills" class="no-line">
-                    <div :class="['menu-elem', {'active' : $route.path === '/bills'}]">
+                <router-link to="/projects" class="no-line">
+                    <div :class="['menu-elem', {'active' : $route.path === '/projects'}]">
                         <li><i class="fa-solid fa-money-bills mr-3"></i>Projects</li>
                     </div>
                 </router-link>

@@ -3,7 +3,7 @@ import VueRouter, { RouteConfig } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import MainContent from '@/components/MainContent.vue'
 import TableComponent from '@/components/TableComponent.vue'
-import BillsComponent from '@/components/BillsComponent.vue'
+import ProjectsComponent from '@/components/ProjectsComponent.vue'
 import LoginComponent from '@/components/LoginComponent.vue'
 import RegisterComponent from '@/components/RegisterComponent.vue'
 import UsersComponent from '@/components/UsersComponent.vue'
@@ -25,8 +25,8 @@ const routes: Array<RouteConfig> = [
         component: TableComponent
       },
       {
-        path: '/bills',
-        component: BillsComponent
+        path: '/projects',
+        component: ProjectsComponent
       },
       {
         path: '/users',

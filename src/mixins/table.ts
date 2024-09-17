@@ -78,16 +78,9 @@ export default class TableData extends Vue {
       },
       {
         status: 'working',
-        img: 'https://img.icons8.com/?size=100&id=kVDlcr2svRuG&format=png&color=000000',
-        name: 'Jo',
-        completion: 48,
-        budget: 2493
-      },
-      {
-        status: 'working',
         img: 'https://img.icons8.com/?size=100&id=79UfeEN6JkZ8&format=png&color=000000',
         name: 'Rose',
-        completion: 89,
+        completion: 31,
         budget: 3024
       },
       {

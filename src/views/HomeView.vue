@@ -14,6 +14,8 @@ import MainComponent from '@/components/MainComponent.vue'
   }
 })
 export default class HomeView extends Vue {
-
+  mounted () {
+    if (JSON.parse(sessionStorage.getItem('user')) === null) this.$router.push('/login')
+  }
 }
 </script>
