@@ -9,7 +9,7 @@
                     <input type="text" class="form-control" v-model="userName">
                     <span>Password</span>
                     <div class="password-part">
-                        <input :type="inputType" class="form-control" v-model="password">
+                        <input :type="inputType" class="form-control" v-model="password" @keypress.enter="clickBtn">
                         <i :class="['fa-regular', {'fa-eye-slash' : isClosed}, {'fa-eye': !isClosed}]" @click="changeIcon"></i>
                     </div>
                     <button class="btn btn-primary mb-2" :disabled="!(userName && password)" @click="clickBtn">Login</button>

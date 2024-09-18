@@ -77,7 +77,11 @@
                             </td>
                             <td>
                                 <div class="completion">
-                                    <span>{{ item.completion }}</span>
+                                    <div class="progress">
+                                        <div :class="['progress-bar', {'bg-danger' : item.status === 'cancelled'}, {'bg-warning' : item.completion < 50}, {'bg-info' : item.completion >= 50 && item.completion < 100}, {'bg-success' : item.completion === 100}]" role="progressbar" :style="{width: + item.completion + '%'}" :aria-valuenow="item.completion" aria-valuemin="0" aria-valuemax="100">
+                                            {{ item.completion }} %
+                                        </div>
+                                    </div>
                                 </div>
                             </td>
                         </tr>

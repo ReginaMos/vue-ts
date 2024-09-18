@@ -1,0 +1,253 @@
+[
+  {
+    "developers": [
+      "Petersen Collier",
+      "Blanche Davidson",
+      "Sheppard Cruz"
+    ],
+    "img": "http://placehold.it/32x32",
+    "status": "done",
+    "name": "AQUOAVO",
+    "budget": 1485,
+    "about": "Labore elit officia nisi aute pariatur esse. Est incididunt enim exercitation fugiat exercitation id ut. Ea exercitation id ipsum minim amet cillum ullamco. Deserunt pariatur esse aliquip eiusmod nostrud culpa velit magna ut proident culpa ut. Id ut et ex do in sunt. Non qui adipisicing excepteur proident do sint reprehenderit ullamco. Exercitation sit elit aute duis proident anim occaecat laboris et.\r\n",
+    "startDate": "2015-05-17",
+    "endDate": "2022-09-27",
+    "completion": 100,
+    "deadline": "2017-07-22"
+  },
+  {
+    "developers": [
+      "Hoover Stafford",
+      "Susie Carr",
+      "Marta Duke"
+    ],
+    "img": "http://placehold.it/32x32",
+    "status": "done",
+    "name": "NSPIRE",
+    "budget": 3887,
+    "about": "Sint anim esse velit nulla aliqua magna ipsum. Dolor sint exercitation sunt exercitation culpa occaecat cupidatat consequat. Irure id Lorem labore sint exercitation esse.\r\n",
+    "startDate": "2022-04-25",
+    "endDate": "2017-05-30",
+    "completion": 100
+  },
+  {
+    "developers": [
+      "Meyers Moreno",
+      "Stacey Duncan",
+      "Whitley Lynn"
+    ],
+    "img": "http://placehold.it/32x32",
+    "status": "cancelled",
+    "name": "PLAYCE",
+    "budget": 4233,
+    "about": "Ut do ut ut laborum pariatur duis laborum aute mollit culpa reprehenderit sit velit commodo. In culpa do pariatur labore nostrud. Sit tempor laboris dolor fugiat exercitation anim qui dolor nulla tempor amet excepteur. Anim fugiat non officia non culpa. Laborum cillum anim adipisicing eiusmod commodo consequat. Minim consectetur cupidatat excepteur id. Aliqua consectetur laboris ea ipsum nisi cupidatat exercitation laboris officia aliquip aute.\r\n",
+    "startDate": "2020-09-24",
+    "endDate": "2024-02-01",
+    "completion": 52,
+    "deadline": "2014-04-22"
+  },
+  {
+    "developers": [
+      "Vaughan Erickson",
+      "Ray Sheppard",
+      "Rosie Carpenter"
+    ],
+    "img": "http://placehold.it/32x32",
+    "status": "done",
+    "name": "QUAILCOM",
+    "budget": 2354,
+    "about": "Nisi id elit dolor laboris irure commodo. Reprehenderit irure eu ea sint deserunt nisi sint nisi dolor in minim nisi. Incididunt consectetur sint veniam deserunt quis cillum occaecat mollit ad nulla elit tempor pariatur.\r\n",
+    "startDate": "2023-08-19",
+    "endDate": "2018-06-06",
+    "completion": 100
+  },
+  {
+    "developers": [
+      "Jayne Arnold",
+      "Meadows Oneil",
+      "Frederick Griffith"
+    ],
+    "img": "http://placehold.it/32x32",
+    "status": "working",
+    "name": "KANGLE",
+    "budget": 3568,
+    "about": "Sunt qui pariatur commodo enim laboris dolore nostrud est sit culpa anim magna. Veniam mollit laborum occaecat officia cillum ea aliqua laborum voluptate magna eiusmod proident nisi commodo. Qui nostrud laboris ex consequat ipsum non consectetur consectetur commodo nostrud sunt anim. Eiusmod dolor laboris mollit anim sunt ullamco id officia aliquip proident sunt dolor. Deserunt labore occaecat consectetur reprehenderit nostrud qui enim labore ex id. Velit magna non laboris cillum. Culpa laboris minim do veniam voluptate cillum anim voluptate magna.\r\n",
+    "startDate": "2017-11-29",
+    "completion": 20,
+    "deadline": "2021-02-12"
+  },
+  {
+    "developers": [
+      "Rivas Mcknight",
+      "Sophia Wynn",
+      "Robbie Pope"
+    ],
+    "img": "http://placehold.it/32x32",
+    "status": "working",
+    "name": "FUTURITY",
+    "budget": 1563,
+    "about": "Et occaecat tempor sunt aliqua culpa non aute cillum reprehenderit. Aliquip mollit id Lorem reprehenderit aliquip quis magna mollit adipisicing adipisicing magna non voluptate. Eu deserunt anim ea excepteur labore culpa cupidatat duis ad. Et tempor non fugiat et occaecat magna officia anim qui cillum duis est Lorem. Laboris laborum id veniam ea nisi non ipsum.\r\n",
+    "startDate": "2022-01-16",
+    "endDate": "2022-12-05",
+    "completion": 58,
+    "deadline": "2024-07-21"
+  },
+  {
+    "developers": [
+      "Pittman Johnson",
+      "Lauren Mathis",
+      "Shaffer Waters"
+    ],
+    "img": "http://placehold.it/32x32",
+    "status": "cancelled",
+    "name": "ZOARERE",
+    "budget": 4830,
+    "about": "Dolor eiusmod duis amet qui eu laborum laboris duis labore. Id veniam eiusmod consectetur tempor consectetur deserunt ut. Commodo sint aliqua ipsum veniam commodo dolor duis eiusmod velit commodo.\r\n",
+    "startDate": "2019-04-26",
+    "endDate": "2023-02-05",
+    "completion": 27,
+    "deadline": "2018-11-01"
+  },
+  {
+    "developers": [
+      "Eugenia Mayer",
+      "Atkins Ross",
+      "Flowers Stanton"
+    ],
+    "img": "http://placehold.it/32x32",
+    "status": "working",
+    "name": "SLOFAST",
+    "budget": 4497,
+    "about": "Enim velit consectetur excepteur sint in eu amet do. Consequat dolore quis duis do nulla nulla minim anim consequat tempor Lorem ea enim. Deserunt dolore deserunt aliquip eiusmod aute. Adipisicing aute occaecat veniam dolor proident mollit aliqua. Ipsum sunt consequat nostrud Lorem veniam irure sint in eu aute incididunt mollit occaecat. Do cupidatat sint veniam magna reprehenderit adipisicing non. Est pariatur consectetur sunt sint do.\r\n",
+    "startDate": "2020-11-26",
+    "completion": 30,
+    "deadline": "2021-04-14"
+  },
+  {
+    "developers": [
+      "Tisha Hyde",
+      "Cassie Roberson",
+      "Shana Short"
+    ],
+    "img": "http://placehold.it/32x32",
+    "status": "working",
+    "name": "ANARCO",
+    "budget": 4827,
+    "about": "Labore eiusmod consequat amet ut deserunt fugiat consequat ipsum cupidatat officia adipisicing eu pariatur. Sint aliqua irure enim veniam aliquip amet officia occaecat veniam. Anim tempor veniam sit et tempor cillum exercitation enim labore nulla ad.\r\n",
+    "startDate": "2016-04-20",
+    "completion": 11,
+    "deadline": "2023-07-12"
+  },
+  {
+    "developers": [
+      "Shepherd Simon",
+      "Robinson Griffin",
+      "Hays Knapp"
+    ],
+    "img": "http://placehold.it/32x32",
+    "status": "cancelled",
+    "name": "EARTHWAX",
+    "budget": 3710,
+    "about": "Fugiat minim occaecat exercitation occaecat duis mollit adipisicing. Voluptate enim irure cillum voluptate commodo velit sint culpa ea sit fugiat. Tempor consectetur aute quis Lorem occaecat esse nisi incididunt velit elit qui adipisicing. Aliqua consectetur ipsum velit amet id ullamco irure consectetur aute est pariatur aliquip consequat nostrud. Velit aute voluptate dolor mollit aliqua laborum non. Dolore consequat culpa exercitation deserunt sint minim Lorem. Eiusmod commodo id labore Lorem excepteur elit velit officia culpa sit tempor adipisicing cillum enim.\r\n",
+    "startDate": "2024-04-18",
+    "endDate": "2015-09-07",
+    "completion": 67,
+    "deadline": "2019-09-27"
+  },
+  {
+    "developers": [
+      "Leblanc Mcdaniel",
+      "Garrett Montoya",
+      "Moon Jennings"
+    ],
+    "img": "http://placehold.it/32x32",
+    "status": "working",
+    "name": "COGENTRY",
+    "budget": 3589,
+    "about": "Incididunt quis excepteur deserunt voluptate. Sit velit aliquip elit aute nulla officia fugiat ex ad ex laborum sit. Quis dolor voluptate ipsum exercitation occaecat velit tempor. Et veniam excepteur excepteur duis pariatur ea anim aute amet deserunt reprehenderit. Est sint eiusmod quis proident cupidatat dolor adipisicing est fugiat anim. Qui elit sit nisi pariatur ad irure laboris magna proident non mollit. Culpa pariatur aute dolore tempor aliqua minim reprehenderit dolor sit reprehenderit sint do incididunt.\r\n",
+    "startDate": "2016-07-10",
+    "endDate": "2024-02-26",
+    "completion": 95,
+    "deadline": "2016-01-21"
+  },
+  {
+    "developers": [
+      "Kane Gates",
+      "Twila Mcfarland",
+      "Stokes Hood"
+    ],
+    "img": "http://placehold.it/32x32",
+    "status": "done",
+    "name": "INJOY",
+    "budget": 3692,
+    "about": "Commodo nostrud veniam esse enim dolore qui elit id irure duis. Sunt non dolor sint ullamco anim sunt pariatur duis id ea eiusmod irure. Laboris ea amet mollit enim proident amet velit dolor ad. Duis magna nostrud ipsum aute do consectetur qui ad dolore sunt ipsum minim. Labore cillum in ullamco duis officia exercitation exercitation. Consectetur do ex incididunt sunt ullamco voluptate duis est ut do labore. Consectetur deserunt sunt elit non elit esse qui nisi.\r\n",
+    "startDate": "2020-05-17",
+    "endDate": "2018-04-24",
+    "completion": 100
+  },
+  {
+    "developers": [
+      "Edwina Daniels",
+      "Stanton Gibbs",
+      "Clemons Harding"
+    ],
+    "img": "http://placehold.it/32x32",
+    "status": "done",
+    "name": "AMTAS",
+    "budget": 2834,
+    "about": "Dolore aute amet ullamco ullamco. Velit irure ex ex magna laborum veniam reprehenderit incididunt duis ullamco magna anim eu. Tempor officia qui Lorem deserunt aute cupidatat adipisicing ex et aute id qui dolore exercitation. Commodo aliquip aliquip quis ex. Eiusmod eiusmod duis ut magna duis laboris irure in dolore deserunt voluptate. Ex velit incididunt laborum sit commodo ea qui occaecat fugiat aute magna.\r\n",
+    "startDate": "2021-03-24",
+    "endDate": "2024-08-28",
+    "completion": 100
+  },
+  {
+    "status": "done",
+    "img": "https://img.icons8.com/?size=100&id=AVQyR7yVZtgD&format=png&color=000000",
+    "name": "Cassie",
+    "completion": 100,
+    "budget": 2528,
+    "about": "Dolore aute amet ullamco ullamco. Velit irure ex ex magna laborum veniam reprehenderit incididunt duis ullamco magna anim eu. Tempor officia qui Lorem deserunt aute cupidatat adipisicing ex et aute id qui dolore exercitation. Commodo aliquip aliquip quis ex. Eiusmod eiusmod duis ut magna duis laboris irure in dolore deserunt voluptate. Ex velit incididunt laborum sit commodo ea qui occaecat fugiat aute magna.\r\n",
+    "startDate": "2021-03-24",
+    "endDate": "2024-08-28",
+    "developers": [
+      "Edwina Daniels",
+      "Stanton Gibbs",
+      "Clemons Harding"
+    ]
+  },
+  {
+    "status": "cancelled",
+    "img": "https://img.icons8.com/?size=100&id=3tL355qYoTqf&format=png&color=000000",
+    "name": "Charles",
+    "completion": 60,
+    "budget": 2782
+  },
+  {
+    "status": "working",
+    "img": "https://img.icons8.com/?size=100&id=AhvTd3uagvOe&format=png&color=000000",
+    "name": "Margat",
+    "completion": 89,
+    "budget": 2490
+  },
+  {
+    "status": "working",
+    "img": "https://img.icons8.com/?size=100&id=79UfeEN6JkZ8&format=png&color=000000",
+    "name": "Rose",
+    "completion": 31,
+    "budget": 3024
+  },
+  {
+    "status": "done",
+    "img": "https://img.icons8.com/?size=100&id=2mhXYLZct4Sd&format=png&color=000000",
+    "name": "Bass",
+    "completion": 100,
+    "budget": 3237
+  },
+  {
+    "status": "cancelled",
+    "img": "https://img.icons8.com/?size=100&id=Bri4HBrgCsPa&format=png&color=000000",
+    "name": "Clare",
+    "completion": 97,
+    "budget": 755
+  }
+]

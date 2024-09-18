@@ -30,12 +30,12 @@
                     <li><i class="fa-solid fa-user mr-3"></i>{{ userInfo }}</li>
                 </div>
                 <router-link to="/login" class="no-line">
-                    <div class="menu-elem">
-                        <li><i class="fa-solid fa-right-to-bracket mr-3"></i>{{ userInfo !== null ? 'Sign Out' : 'Sign In'}}</li>
+                    <div class="menu-elem" @click="deleteInfo">
+                        <li><i class="fa-solid fa-right-to-bracket mr-3"></i>Sign Out</li>
                     </div>
                 </router-link>
                 <router-link to="/register" class="no-line">
-                    <div class="menu-elem">
+                    <div class="menu-elem" @click="deleteInfo">
                         <li><i class="fa-solid fa-user-plus mr-3"></i>Sign Up</li>
                     </div>
                 </router-link>
@@ -50,6 +50,11 @@ import { Vue, Component } from 'vue-property-decorator'
 @Component
 export default class YourClass extends Vue {
     userInfo = JSON.parse(sessionStorage.getItem('user'))
+
+    deleteInfo (): void {
+      console.log('hehe')
+      sessionStorage.clear()
+    }
 }
 
 </script>

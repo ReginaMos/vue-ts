@@ -41,3 +41,11 @@ export interface User extends Author {
     about: string,
     project: string[]
 }
+
+export interface Project extends Product {
+    about: string,
+    startDate: string,
+    endDate?: string,
+    deadline?: string,
+    developers: string[]
+}
