@@ -220,34 +220,74 @@
     "img": "https://img.icons8.com/?size=100&id=3tL355qYoTqf&format=png&color=000000",
     "name": "Charles",
     "completion": 60,
-    "budget": 2782
+    "budget": 2782,
+    "about": "Dolore aute amet ullamco ullamco. Velit irure ex ex magna laborum veniam reprehenderit incididunt duis ullamco magna anim eu. Tempor officia qui Lorem deserunt aute cupidatat adipisicing ex et aute id qui dolore exercitation. Commodo aliquip aliquip quis ex. Eiusmod eiusmod duis ut magna duis laboris irure in dolore deserunt voluptate. Ex velit incididunt laborum sit commodo ea qui occaecat fugiat aute magna.\r\n",
+    "startDate": "2021-03-24",
+    "endDate": "2024-08-28",
+    "developers": [
+      "Edwina Daniels",
+      "Stanton Gibbs",
+      "Clemons Harding"
+    ]
   },
   {
     "status": "working",
     "img": "https://img.icons8.com/?size=100&id=AhvTd3uagvOe&format=png&color=000000",
     "name": "Margat",
     "completion": 89,
-    "budget": 2490
+    "budget": 2490,
+    "about": "Dolore aute amet ullamco ullamco. Velit irure ex ex magna laborum veniam reprehenderit incididunt duis ullamco magna anim eu. Tempor officia qui Lorem deserunt aute cupidatat adipisicing ex et aute id qui dolore exercitation. Commodo aliquip aliquip quis ex. Eiusmod eiusmod duis ut magna duis laboris irure in dolore deserunt voluptate. Ex velit incididunt laborum sit commodo ea qui occaecat fugiat aute magna.\r\n",
+    "startDate": "2021-03-24",
+    "endDate": "2024-08-28",
+    "developers": [
+      "Edwina Daniels",
+      "Stanton Gibbs",
+      "Clemons Harding"
+    ]
   },
   {
     "status": "working",
     "img": "https://img.icons8.com/?size=100&id=79UfeEN6JkZ8&format=png&color=000000",
     "name": "Rose",
     "completion": 31,
-    "budget": 3024
+    "budget": 3024,
+    "about": "Dolore aute amet ullamco ullamco. Velit irure ex ex magna laborum veniam reprehenderit incididunt duis ullamco magna anim eu. Tempor officia qui Lorem deserunt aute cupidatat adipisicing ex et aute id qui dolore exercitation. Commodo aliquip aliquip quis ex. Eiusmod eiusmod duis ut magna duis laboris irure in dolore deserunt voluptate. Ex velit incididunt laborum sit commodo ea qui occaecat fugiat aute magna.\r\n",
+    "startDate": "2021-03-24",
+    "endDate": "2024-08-28",
+    "developers": [
+      "Edwina Daniels",
+      "Stanton Gibbs",
+      "Clemons Harding"
+    ]
   },
   {
     "status": "done",
     "img": "https://img.icons8.com/?size=100&id=2mhXYLZct4Sd&format=png&color=000000",
     "name": "Bass",
     "completion": 100,
-    "budget": 3237
+    "budget": 3237,
+    "about": "Dolore aute amet ullamco ullamco. Velit irure ex ex magna laborum veniam reprehenderit incididunt duis ullamco magna anim eu. Tempor officia qui Lorem deserunt aute cupidatat adipisicing ex et aute id qui dolore exercitation. Commodo aliquip aliquip quis ex. Eiusmod eiusmod duis ut magna duis laboris irure in dolore deserunt voluptate. Ex velit incididunt laborum sit commodo ea qui occaecat fugiat aute magna.\r\n",
+    "startDate": "2021-03-24",
+    "endDate": "2024-08-28",
+    "developers": [
+      "Edwina Daniels",
+      "Stanton Gibbs",
+      "Clemons Harding"
+    ]
   },
   {
     "status": "cancelled",
     "img": "https://img.icons8.com/?size=100&id=Bri4HBrgCsPa&format=png&color=000000",
     "name": "Clare",
     "completion": 97,
-    "budget": 755
+    "budget": 755,
+    "about": "Dolore aute amet ullamco ullamco. Velit irure ex ex magna laborum veniam reprehenderit incididunt duis ullamco magna anim eu. Tempor officia qui Lorem deserunt aute cupidatat adipisicing ex et aute id qui dolore exercitation. Commodo aliquip aliquip quis ex. Eiusmod eiusmod duis ut magna duis laboris irure in dolore deserunt voluptate. Ex velit incididunt laborum sit commodo ea qui occaecat fugiat aute magna.\r\n",
+    "startDate": "2021-03-24",
+    "endDate": "2024-08-28",
+    "developers": [
+      "Edwina Daniels",
+      "Stanton Gibbs",
+      "Clemons Harding"
+    ]
   }
 ]
