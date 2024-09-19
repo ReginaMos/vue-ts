@@ -1,6 +1,6 @@
 <template>
     <div class="users">
-        <div class="user-box" v-for="item, idx in users" :key="idx">
+        <div class="user-box" v-for="item, idx in users" :key="idx" >
             <img :src="item.img" :alt="item.name">
             <h4>{{ item.name }}</h4>
             <p><span>Function: </span>{{ item.function }}</p>
@@ -20,7 +20,10 @@
                 <p><span>Phone:</span> {{ users[clickIdx].phone }}</p>
                 <p><span>Function:</span> {{ users[clickIdx].function }}</p>
                 <p><span>Employed:</span> {{ users[clickIdx].employed }}</p>
-                <p><span>Status:</span>{{ users[clickIdx].status }}</p>
+                <div class="status-part">
+                    <span>Status:</span>
+                    <div :class="['status', users[clickIdx].status === 'online' ? 'on' : 'off']">{{ users[clickIdx].status }}</div>
+                </div>
                 <p><span>Projects:</span>
                     <ul>
                         <li v-for="item, idx in users[clickIdx].project" :key="idx">

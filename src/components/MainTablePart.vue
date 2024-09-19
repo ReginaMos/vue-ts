@@ -19,7 +19,7 @@
               </td>
               <td>
                 <div class="sales">
-                  <span>{{ item.sales }}</span>
+                  <span>{{ item.sales }} $</span>
                 </div>
               </td>
               <td>
