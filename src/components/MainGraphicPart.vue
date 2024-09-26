@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="graphic-content pl-4">
+        <div class="container graphic-content">
             <div class="graphic">
                 <h2>Sales overview</h2>
                 <canvas ref="canvas" id="c" height="400" width="600"></canvas>
@@ -24,7 +24,7 @@ import { Mixins, Component } from 'vue-property-decorator'
 import tablePoints from '@/mixins/tabledata'
 
 @Component
-export default class YourClass extends Mixins(tablePoints) {
+export default class MainGraphicPart extends Mixins(tablePoints) {
   mixins: [tablePoints]
 
   mounted () {
@@ -94,9 +94,9 @@ export default class YourClass extends Mixins(tablePoints) {
     .graphic-content
         display: flex
         align-items: center
-        gap: 50px
-        margin-right: 50px
-        width: 100%
+        gap: 100px
+        // margin-right: 50px
+        // width: 100%
 
     .arrow
       padding: 15px

@@ -1,16 +1,16 @@
 <template>
   <div>
-    <DateTimePicker/>
+    <MainComponent/>
   </div>
 </template>
 
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator'
-import DateTimePicker from '@/components/DateTimePicker.vue'
+import MainComponent from '@/components/MainComponent.vue'
 
 @Component({
   components: {
-    DateTimePicker
+    MainComponent
   }
 })
 export default class HomeView extends Vue {

@@ -29,7 +29,7 @@ import Data from '@/mixins/main'
     MainGraphicPart
   }
 })
-export default class YourClass extends Mixins(Data) {
+export default class MainContent extends Mixins(Data) {
   mixins: [Data]
 }
 

@@ -29,7 +29,7 @@ import HeaderComponent from '@/components/HeaderComponent.vue'
     HeaderComponent
   }
 })
-export default class YourClass extends Vue {
+export default class LoginComponent extends Vue {
     userName = ''
     password = ''
     inputType = 'password'

@@ -1,10 +1,8 @@
 <template>
     <div>
-      <!-- <div class="header"> -->
         <HeaderComponent
           @changeOpen="changeOpen"
         />
-      <!-- </div> -->
       <div class="main-content">
           <div class="aside-part">
             <AsideComponent :class="{'hidden': !hidden}"/>
@@ -27,7 +25,7 @@ import AsideComponent from '@/components/AsideComponent.vue'
     AsideComponent
   }
 })
-export default class YourClass extends Vue {
+export default class MainComponent extends Vue {
   hidden = true
 
   changeOpen (): void {

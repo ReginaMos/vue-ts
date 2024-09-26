@@ -26,9 +26,7 @@
             </ul>
 
             <ul class="p-0">
-                <div class="menu-elem">
-                    <li><i class="fa-solid fa-user mr-3"></i>{{ userInfo }}</li>
-                </div>
+                <li class="pl-2"><i class="fa-solid fa-user mr-3"></i>{{ userInfo }}</li>
                 <router-link to="/login" class="no-line">
                     <div class="menu-elem" @click="deleteInfo">
                         <li><i class="fa-solid fa-right-to-bracket mr-3"></i>Sign Out</li>
@@ -48,7 +46,7 @@
 import { Vue, Component } from 'vue-property-decorator'
 
 @Component
-export default class YourClass extends Vue {
+export default class AsideComponent extends Vue {
     userInfo = JSON.parse(sessionStorage.getItem('user'))
 
     deleteInfo (): void {

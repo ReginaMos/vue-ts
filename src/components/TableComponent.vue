@@ -97,7 +97,7 @@ import { Component, Mixins } from 'vue-property-decorator'
 import TableData from '@/mixins/table'
 
 @Component
-export default class MainTablePart extends Mixins(TableData) {
+export default class Table extends Mixins(TableData) {
   mixins: [TableData]
 }
 
